@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+.subH1 {
+    font-size: 20px;
+    border-bottom: 2px solid orange;
+    color: gray;
+    width: 220px;
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+@media screen and (max-width: 1206px) {
+    .subH1 {
+        position: static;
+        margin-top: 20px;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 993px) {
+    .heroCar{
+        width: 43vw;
+    }
+    #h1ForHero{
+    font-size: 8vw !important;
+   }
+    #part2 {
+        height: 370px !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    #h1ForHero{
+        font-size: 8vw !important;
+    }
+    #yellowText {
+        color: rgb(223, 245, 190);
+        font-size: 9vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #part2 {
+        margin-bottom: -300px;
+        width: 330px !important;
+        height: 80vh !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        position: relative !important;
+        top: -300px;
+        z-index: -1;
+    }
+    .heroCar{
+        min-width: 300px;
+        position: absolute !important;
+        left: 100px;
+        top: 250px;
+    }
+  
+}
+
+
