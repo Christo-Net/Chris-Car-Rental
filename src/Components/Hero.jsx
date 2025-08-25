@@ -4,6 +4,7 @@ import { ArrowRight } from "react-bootstrap-icons";
 import { Container } from 'react-bootstrap'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import { HeroImage } from './Images';
 
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
                 </Col>
 
                 <Col id='part2' lg={4} md={4} style={{backgroundImage: "linear-gradient(to bottom,  rgb(240, 194, 126), rgb(240, 194, 126), white)", height: "300px", transform: "translate(100px,-100px)"}}>
-                    <img className='heroCar' style={{minWidthidth: "35rem", transform: "translate(-150px,100px)"}} src="public/58a83191258dc4b85a45d27e73608dfb-removebg-preview.png" alt="Hero Car" />
+                    <HeroImage />
                 </Col>
             </Row>
 
